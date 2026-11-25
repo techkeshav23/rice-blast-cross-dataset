@@ -94,6 +94,7 @@ def root() -> dict:
     return {
         "name": settings.APP_NAME,
         "version": settings.VERSION,
+        "model": _get_model().version,
         "docs": "/docs",
     }
 
@@ -105,19 +106,20 @@ def health() -> HealthResponse:
     return HealthResponse(
         status="ok",
         model_loaded=bool(getattr(current, "loaded", False)),
-        version=settings.VERSION,
+        version=current.version,
     )
 
 
 @app.get("/model-info", response_model=ModelInfo)
 def model_info() -> ModelInfo:
-    """Return static, planned model metadata."""
+    """Describe the model that is actually loaded (ONNX model or mock)."""
+    current = _get_model()
     return ModelInfo(
-        backbone="MobileNetV3 (planned)",
-        method="MixStyle domain generalization (planned)",
+        backbone=current.backbone,
+        method=current.method,
         classes=list(settings.CLASSES),
-        trained_on="Paddy Doctor (planned)",
-        version=settings.VERSION,
+        trained_on=current.trained_on,
+        version=current.version,
     )
 
 
@@ -162,7 +164,7 @@ async def predict(image: UploadFile = File(...)) -> PredictResponse:
         confidence=result["confidence"],
         scores=result["scores"],
         low_confidence=result["low_confidence"],
-        version=settings.VERSION,
+        version=current.version,
     )
 
 

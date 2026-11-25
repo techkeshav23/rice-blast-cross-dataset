@@ -55,6 +55,10 @@ class BaseModel:
     version: str = settings.VERSION
     loaded: bool = False
     torch_model: Optional[object] = None
+    # Human-readable description reported by GET /model-info.
+    backbone: str = "none"
+    method: str = "none"
+    trained_on: str = "none"
 
     @property
     def classes(self) -> List[str]:
@@ -98,8 +102,12 @@ class MockModel(BaseModel):
     makes demos reproducible without any trained weights.
     """
 
+    backbone = "none (mock model, no trained weights loaded)"
+    method = "deterministic mock: scores derived from a hash of the image"
+    trained_on = "none"
+
     def __init__(self) -> None:
-        self.version = settings.VERSION
+        self.version = "mock"
         self.loaded = True
         self.torch_model = None
 
@@ -157,7 +165,7 @@ class TorchModel(BaseModel):
     """
 
     def __init__(self) -> None:
-        self.version = settings.VERSION
+        self.version = "torch-stub"
         self.loaded = False
         self.torch_model = None
 
@@ -227,6 +235,10 @@ class OnnxModel(BaseModel):
     _MEAN = (0.485, 0.456, 0.406)
     _STD = (0.229, 0.224, 0.225)
 
+    backbone = "MobileNetV3-Small"
+    method = "MixStyle (early single-seed checkpoint); ONNX Runtime CPU inference"
+    trained_on = "Paddy Doctor (Rice Blast, Brown Spot, Healthy)"
+
     def __init__(self) -> None:
         import numpy as np  # noqa: F401 (ensure available early)
         import onnxruntime as ort
@@ -237,7 +249,7 @@ class OnnxModel(BaseModel):
             providers=["CPUExecutionProvider"],
         )
         self._input = self._session.get_inputs()[0].name
-        self.version = "v0.2-onnx"
+        self.version = "onnx-mobilenetv3-small-v1"
         self.loaded = True
         self.torch_model = None
 

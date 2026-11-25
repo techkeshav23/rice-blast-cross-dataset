@@ -61,7 +61,7 @@ class Settings:
     """Immutable application settings container."""
 
     APP_NAME: str = "Rice Blast Detector"
-    VERSION: str = "v0.1-mock"
+    VERSION: str = "1.0.0"  # API version; the loaded model reports its own version
     CLASSES: List[str] = field(default_factory=_load_classes)
     LOW_CONF_THRESHOLD: float = 0.55
     IMAGE_SIZE: int = 224
