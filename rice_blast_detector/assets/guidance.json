@@ -1,0 +1,106 @@
+{
+  "note": {
+    "en": "Decision support only. Verify with agricultural experts before applying any treatment. Sources: IRRI Rice Knowledge Bank, ICAR, TNAU Agritech.",
+    "hi": "केवल निर्णय-सहायता। कोई भी उपचार लागू करने से पहले कृषि विशेषज्ञ से पुष्टि करें। स्रोत: IRRI राइस नॉलेज बैंक, ICAR, TNAU एग्रीटेक।"
+  },
+  "classes": {
+    "Rice Blast": {
+      "severity": "high",
+      "name": { "en": "Rice Blast", "hi": "राइस ब्लास्ट" },
+      "en": {
+        "summary": "A fungal disease (Magnaporthe oryzae) causing spindle/eye-shaped lesions with grey centres and brown margins on leaves; can also affect nodes and neck.",
+        "symptoms": [
+          "Diamond/eye-shaped lesions, grey-white centre with brown border",
+          "Lesions may join and kill large leaf areas",
+          "Neck rot turns the panicle base black and can cause white/empty grains"
+        ],
+        "management": [
+          "Grow blast-resistant rice varieties suited to your region",
+          "Avoid excess nitrogen; apply nitrogen in split doses",
+          "Maintain proper water management; avoid drought stress",
+          "Use balanced fertiliser; silicon application can reduce susceptibility",
+          "Remove and destroy infected crop residue",
+          "If severe, use a recommended fungicide (e.g. tricyclazole) only as advised by local agri experts"
+        ]
+      },
+      "hi": {
+        "summary": "एक फफूंद जनित रोग (Magnaporthe oryzae) जिससे पत्तियों पर आँख/तकली जैसे धब्बे बनते हैं — बीच में भूरा-सलेटी और किनारे भूरे। यह गाँठ और बाली की गर्दन को भी प्रभावित कर सकता है।",
+        "symptoms": [
+          "आँख/तकली के आकार के धब्बे, बीच में सलेटी-सफ़ेद और किनारा भूरा",
+          "धब्बे मिलकर पत्ती का बड़ा हिस्सा सुखा सकते हैं",
+          "गर्दन सड़ने पर बाली का आधार काला पड़ता है और दाने खाली रह सकते हैं"
+        ],
+        "management": [
+          "अपने क्षेत्र के लिए उपयुक्त ब्लास्ट-प्रतिरोधी किस्में लगाएँ",
+          "अधिक नाइट्रोजन से बचें; नाइट्रोजन किस्तों में दें",
+          "उचित जल प्रबंधन रखें; सूखे का तनाव न आने दें",
+          "संतुलित खाद दें; सिलिकॉन देने से रोग की आशंका घटती है",
+          "संक्रमित फसल-अवशेष हटाकर नष्ट करें",
+          "अधिक प्रकोप पर स्थानीय कृषि विशेषज्ञ की सलाह से ही अनुशंसित फफूंदनाशी (जैसे ट्राइसाइक्लाज़ोल) का उपयोग करें"
+        ]
+      }
+    },
+    "Brown Spot": {
+      "severity": "medium",
+      "name": { "en": "Brown Spot", "hi": "ब्राउन स्पॉट (भूरा धब्बा)" },
+      "en": {
+        "summary": "A fungal disease (Bipolaris oryzae) producing small brown, oval spots; often linked to nutrient-poor or stressed soils.",
+        "symptoms": [
+          "Small, circular to oval brown spots on leaves",
+          "Spots may have a grey centre with a reddish-brown margin",
+          "Can affect grains, causing discolouration"
+        ],
+        "management": [
+          "Use healthy, certified seed; treat seed before sowing",
+          "Correct soil nutrient deficiencies (especially potassium)",
+          "Maintain balanced fertilisation and good water management",
+          "Remove infected debris; follow crop rotation where possible",
+          "Apply a recommended fungicide only if advised by local agri experts"
+        ]
+      },
+      "hi": {
+        "summary": "एक फफूंद जनित रोग (Bipolaris oryzae) जिससे छोटे भूरे, अंडाकार धब्बे बनते हैं; अक्सर पोषक-तत्व की कमी या कमज़ोर मिट्टी से जुड़ा होता है।",
+        "symptoms": [
+          "पत्तियों पर छोटे, गोल से अंडाकार भूरे धब्बे",
+          "धब्बों का बीच सलेटी और किनारा लाल-भूरा हो सकता है",
+          "दानों को भी प्रभावित कर सकता है, जिससे रंग बिगड़ता है"
+        ],
+        "management": [
+          "स्वस्थ, प्रमाणित बीज लें; बुवाई से पहले बीज उपचार करें",
+          "मिट्टी की पोषक कमी दूर करें (विशेषकर पोटैशियम)",
+          "संतुलित खाद और अच्छा जल प्रबंधन रखें",
+          "संक्रमित अवशेष हटाएँ; जहाँ संभव हो फसल-चक्र अपनाएँ",
+          "ज़रूरत पर स्थानीय विशेषज्ञ की सलाह से ही अनुशंसित फफूंदनाशी का उपयोग करें"
+        ]
+      }
+    },
+    "Healthy": {
+      "severity": "none",
+      "name": { "en": "Healthy", "hi": "स्वस्थ" },
+      "en": {
+        "summary": "No disease symptoms detected. The leaf appears healthy.",
+        "symptoms": [
+          "Uniform green colour",
+          "No lesions, spots, or discolouration"
+        ],
+        "management": [
+          "Continue good field practices and regular monitoring",
+          "Maintain balanced fertilisation and water management",
+          "Scout the field periodically for early symptoms"
+        ]
+      },
+      "hi": {
+        "summary": "कोई रोग-लक्षण नहीं मिला। पत्ती स्वस्थ दिखती है।",
+        "symptoms": [
+          "एक समान हरा रंग",
+          "कोई धब्बा या रंग-बिगाड़ नहीं"
+        ],
+        "management": [
+          "अच्छी खेती की आदतें और नियमित निगरानी जारी रखें",
+          "संतुलित खाद और जल प्रबंधन बनाए रखें",
+          "शुरुआती लक्षणों के लिए खेत की समय-समय पर जाँच करें"
+        ]
+      }
+    }
+  }
+}

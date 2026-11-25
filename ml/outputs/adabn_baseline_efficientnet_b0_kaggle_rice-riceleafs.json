@@ -1,0 +1,34 @@
+{
+  "method": "baseline",
+  "model": "efficientnet_b0",
+  "pairing": "kaggle_rice-riceleafs",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "no_adapt_mean": 26.3,
+  "no_adapt_std": 10.21,
+  "adabn_mean": 47.74,
+  "adabn_std": 2.51,
+  "improvement": 21.44,
+  "per_seed_no_adapt": [
+    27.13,
+    32.58,
+    43.15,
+    17.67,
+    20.25,
+    17.02
+  ],
+  "per_seed_adabn": [
+    46.19,
+    47.91,
+    46.79,
+    45.83,
+    47.09,
+    52.65
+  ]
+}

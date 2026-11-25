@@ -1,0 +1,60 @@
+{
+  "tag": "mixstyle_efficientnet_b0_paddy_doctor-philippines_s2",
+  "model": "efficientnet_b0",
+  "dg": "mixstyle",
+  "epochs": 20,
+  "seed": 2,
+  "internal_test": {
+    "macro_f1": 98.76,
+    "accuracy": 98.77,
+    "per_class_recall": {
+      "Rice Blast": 98.52,
+      "Brown Spot": 97.78,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        133,
+        1,
+        1
+      ],
+      [
+        2,
+        132,
+        1
+      ],
+      [
+        0,
+        0,
+        135
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 54.46,
+    "accuracy": 54.35,
+    "per_class_recall": {
+      "Rice Blast": 64.71,
+      "Brown Spot": 25.34,
+      "Healthy": 97.5
+    },
+    "confusion_matrix": [
+      [
+        154,
+        39,
+        45
+      ],
+      [
+        249,
+        112,
+        81
+      ],
+      [
+        5,
+        1,
+        234
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 44.3
+}

@@ -1,0 +1,60 @@
+{
+  "tag": "mixstyle_efficientnet_b0_paddy_doctor-riceleafs_s7",
+  "model": "efficientnet_b0",
+  "dg": "mixstyle",
+  "epochs": 20,
+  "seed": 7,
+  "internal_test": {
+    "macro_f1": 96.79,
+    "accuracy": 96.79,
+    "per_class_recall": {
+      "Rice Blast": 96.3,
+      "Brown Spot": 97.04,
+      "Healthy": 97.04
+    },
+    "confusion_matrix": [
+      [
+        130,
+        3,
+        2
+      ],
+      [
+        2,
+        131,
+        2
+      ],
+      [
+        4,
+        0,
+        131
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 30.07,
+    "accuracy": 37.32,
+    "per_class_recall": {
+      "Rice Blast": 41.5,
+      "Brown Spot": 74.76,
+      "Healthy": 0.5
+    },
+    "confusion_matrix": [
+      [
+        249,
+        347,
+        4
+      ],
+      [
+        132,
+        391,
+        0
+      ],
+      [
+        218,
+        379,
+        3
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 66.72
+}

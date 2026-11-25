@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pillow==11.1.0
+numpy==2.2.1
+pydantic>=2
+# real inference from the exported ONNX model (torch-free serving)
+onnxruntime==1.20.1
+
+# uncomment when the trained model is added:
+# torch==2.5.1
+# torchvision==0.20.1
+# grad-cam==1.5.4

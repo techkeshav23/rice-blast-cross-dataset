@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_efficientnet_b0_paddy_doctor-philippines_s1",
+  "model": "efficientnet_b0",
+  "dg": "none",
+  "epochs": 20,
+  "seed": 1,
+  "internal_test": {
+    "macro_f1": 97.78,
+    "accuracy": 97.78,
+    "per_class_recall": {
+      "Rice Blast": 96.3,
+      "Brown Spot": 99.26,
+      "Healthy": 97.78
+    },
+    "confusion_matrix": [
+      [
+        130,
+        4,
+        1
+      ],
+      [
+        0,
+        134,
+        1
+      ],
+      [
+        2,
+        1,
+        132
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 74.63,
+    "accuracy": 72.39,
+    "per_class_recall": {
+      "Rice Blast": 85.29,
+      "Brown Spot": 52.04,
+      "Healthy": 97.08
+    },
+    "confusion_matrix": [
+      [
+        203,
+        31,
+        4
+      ],
+      [
+        205,
+        230,
+        7
+      ],
+      [
+        3,
+        4,
+        233
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 23.15
+}

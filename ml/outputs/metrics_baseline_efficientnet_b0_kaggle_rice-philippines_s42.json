@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_efficientnet_b0_kaggle_rice-philippines_s42",
+  "model": "efficientnet_b0",
+  "dg": "none",
+  "epochs": 20,
+  "seed": 42,
+  "internal_test": {
+    "macro_f1": 99.56,
+    "accuracy": 99.56,
+    "per_class_recall": {
+      "Rice Blast": 98.67,
+      "Brown Spot": 100.0,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0
+      ],
+      [
+        0,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 59.2,
+    "accuracy": 64.13,
+    "per_class_recall": {
+      "Rice Blast": 25.63,
+      "Brown Spot": 65.84,
+      "Healthy": 99.17
+    },
+    "confusion_matrix": [
+      [
+        61,
+        81,
+        96
+      ],
+      [
+        4,
+        291,
+        147
+      ],
+      [
+        0,
+        2,
+        238
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 40.36
+}

@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_mobilenet_v3_small_s5",
+  "model": "mobilenet_v3_small",
+  "dg": "none",
+  "epochs": 25,
+  "seed": 5,
+  "internal_test": {
+    "macro_f1": 96.29,
+    "accuracy": 96.3,
+    "per_class_recall": {
+      "Rice Blast": 94.81,
+      "Brown Spot": 97.04,
+      "Healthy": 97.04
+    },
+    "confusion_matrix": [
+      [
+        128,
+        2,
+        5
+      ],
+      [
+        4,
+        131,
+        0
+      ],
+      [
+        2,
+        2,
+        131
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 72.91,
+    "accuracy": 71.09,
+    "per_class_recall": {
+      "Rice Blast": 82.35,
+      "Brown Spot": 52.49,
+      "Healthy": 94.17
+    },
+    "confusion_matrix": [
+      [
+        196,
+        35,
+        7
+      ],
+      [
+        191,
+        232,
+        19
+      ],
+      [
+        3,
+        11,
+        226
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 23.38
+}

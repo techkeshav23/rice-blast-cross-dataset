@@ -1,0 +1,24 @@
+{
+  "MobileNetV3 Canopy": {
+    "n": 8,
+    "old_external_no_adapt": 64.55,
+    "dedup_external_no_adapt": 62.64,
+    "dedup_no_adapt_std": 6.35,
+    "old_external_adabn": 69.7,
+    "dedup_external_adabn": 67.46,
+    "dedup_adabn_std": 7.07,
+    "dedup_adabn_delta": 4.82,
+    "dedup_adabn_p": 0.041
+  },
+  "EfficientNet Canopy": {
+    "n": 6,
+    "old_external_no_adapt": 71.11,
+    "dedup_external_no_adapt": 69.78,
+    "dedup_no_adapt_std": 4.8,
+    "old_external_adabn": 65.15,
+    "dedup_external_adabn": 65.13,
+    "dedup_adabn_std": 2.84,
+    "dedup_adabn_delta": -4.65,
+    "dedup_adabn_p": 0.0648
+  }
+}

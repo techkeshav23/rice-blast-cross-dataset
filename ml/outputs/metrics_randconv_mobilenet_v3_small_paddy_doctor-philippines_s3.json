@@ -1,0 +1,60 @@
+{
+  "tag": "randconv_mobilenet_v3_small_paddy_doctor-philippines_s3",
+  "model": "mobilenet_v3_small",
+  "dg": "randconv",
+  "epochs": 25,
+  "seed": 3,
+  "internal_test": {
+    "macro_f1": 96.01,
+    "accuracy": 96.05,
+    "per_class_recall": {
+      "Rice Blast": 90.37,
+      "Brown Spot": 99.26,
+      "Healthy": 98.52
+    },
+    "confusion_matrix": [
+      [
+        122,
+        6,
+        7
+      ],
+      [
+        1,
+        134,
+        0
+      ],
+      [
+        1,
+        1,
+        133
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 67.35,
+    "accuracy": 67.39,
+    "per_class_recall": {
+      "Rice Blast": 65.55,
+      "Brown Spot": 52.71,
+      "Healthy": 96.25
+    },
+    "confusion_matrix": [
+      [
+        156,
+        55,
+        27
+      ],
+      [
+        98,
+        233,
+        111
+      ],
+      [
+        7,
+        2,
+        231
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 28.66
+}

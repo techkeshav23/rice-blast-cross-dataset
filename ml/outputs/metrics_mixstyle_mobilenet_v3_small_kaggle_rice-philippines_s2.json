@@ -1,0 +1,60 @@
+{
+  "tag": "mixstyle_mobilenet_v3_small_kaggle_rice-philippines_s2",
+  "model": "mobilenet_v3_small",
+  "dg": "mixstyle",
+  "epochs": 20,
+  "seed": 2,
+  "internal_test": {
+    "macro_f1": 99.56,
+    "accuracy": 99.56,
+    "per_class_recall": {
+      "Rice Blast": 98.67,
+      "Brown Spot": 100.0,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0
+      ],
+      [
+        0,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 56.93,
+    "accuracy": 61.74,
+    "per_class_recall": {
+      "Rice Blast": 24.79,
+      "Brown Spot": 62.22,
+      "Healthy": 97.5
+    },
+    "confusion_matrix": [
+      [
+        59,
+        104,
+        75
+      ],
+      [
+        27,
+        275,
+        140
+      ],
+      [
+        2,
+        4,
+        234
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 42.63
+}

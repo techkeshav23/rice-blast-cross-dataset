@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/downloads/
+# Split manifests (data/splits/*.json) ARE published: exact file list of every split.
+# outputs/: result JSONs and figures are published; checkpoints, exports and run logs are not.
+outputs/_*
+*.pt
+*.pth
+*.tflite
+*.onnx
+kaggle.json

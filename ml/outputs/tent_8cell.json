@@ -1,0 +1,16 @@
+{
+  "new_gains": {
+    "MNet paddy>rice": -5.29,
+    "ENet paddy>rice": 0.83,
+    "MNet kaggle>phil": 9.2,
+    "ENet kaggle>phil": 9.37
+  },
+  "orig_gains": {
+    "MobileNetV3 Canopy": 1.75,
+    "MobileNetV3 Single-leaf": -7.63,
+    "EfficientNet Canopy": -1.81,
+    "EfficientNet Single-leaf": 20.75
+  },
+  "tent_8cell_mean_gain": 3.4,
+  "tent_8cell_worst": -7.63
+}

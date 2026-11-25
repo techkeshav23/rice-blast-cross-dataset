@@ -1,0 +1,34 @@
+{
+  "method": "baseline",
+  "model": "efficientnet_b0",
+  "pairing": "paddy_doctor-philippines",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "no_adapt_mean": 71.11,
+  "no_adapt_std": 4.9,
+  "adabn_mean": 65.15,
+  "adabn_std": 3.1,
+  "improvement": -5.96,
+  "per_seed_no_adapt": [
+    71.62,
+    74.63,
+    67.17,
+    78.91,
+    67.1,
+    67.22
+  ],
+  "per_seed_adabn": [
+    68.14,
+    69.63,
+    61.54,
+    64.18,
+    64.29,
+    63.1
+  ]
+}

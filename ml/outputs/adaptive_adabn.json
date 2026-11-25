@@ -1,0 +1,39 @@
+{
+  "tau": 0.05,
+  "lam_mild": 0.5,
+  "cells": {
+    "MobileNetV3 Canopy": {
+      "n": 8,
+      "no_adapt": 64.55,
+      "full_adabn": 69.7,
+      "gated": 64.55,
+      "adaptive": 68.63
+    },
+    "MobileNetV3 Single-leaf": {
+      "n": 5,
+      "no_adapt": 32.46,
+      "full_adabn": 34.11,
+      "gated": 37.04,
+      "adaptive": 32.69
+    },
+    "EfficientNet Canopy": {
+      "n": 6,
+      "no_adapt": 71.11,
+      "full_adabn": 65.26,
+      "gated": 71.11,
+      "adaptive": 71.06
+    },
+    "EfficientNet Single-leaf": {
+      "n": 6,
+      "no_adapt": 26.3,
+      "full_adabn": 47.88,
+      "gated": 44.71,
+      "adaptive": 45.09
+    }
+  },
+  "mean_gain": {
+    "full_adabn": 5.63,
+    "gated": 5.75,
+    "adaptive": 5.76
+  }
+}

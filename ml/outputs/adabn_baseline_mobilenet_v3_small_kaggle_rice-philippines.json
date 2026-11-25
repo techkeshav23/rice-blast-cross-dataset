@@ -1,0 +1,28 @@
+{
+  "method": "baseline",
+  "model": "mobilenet_v3_small",
+  "pairing": "kaggle_rice-philippines",
+  "seeds": [
+    42,
+    1,
+    2,
+    3
+  ],
+  "no_adapt_mean": 39.52,
+  "no_adapt_std": 7.44,
+  "adabn_mean": 52.28,
+  "adabn_std": 5.67,
+  "improvement": 12.76,
+  "per_seed_no_adapt": [
+    46.61,
+    43.28,
+    29.46,
+    38.73
+  ],
+  "per_seed_adabn": [
+    58.93,
+    53.27,
+    45.14,
+    51.77
+  ]
+}

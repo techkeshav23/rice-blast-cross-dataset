@@ -1,0 +1,28 @@
+{
+  "method": "baseline",
+  "model": "efficientnet_b0",
+  "pairing": "paddy_doctor-riceleafs",
+  "seeds": [
+    42,
+    1,
+    2,
+    3
+  ],
+  "no_adapt_mean": 35.11,
+  "no_adapt_std": 4.57,
+  "adabn_mean": 34.35,
+  "adabn_std": 3.04,
+  "improvement": -0.76,
+  "per_seed_no_adapt": [
+    38.88,
+    39.2,
+    30.57,
+    31.77
+  ],
+  "per_seed_adabn": [
+    38.15,
+    33.23,
+    30.96,
+    35.06
+  ]
+}

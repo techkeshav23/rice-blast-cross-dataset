@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------------------
+# Public repository: only the code folders below are published.
+# Everything else at the top level (internal notes, report, paper drafts,
+# synopsis, status files, zips) stays local.
+# ---------------------------------------------------------------------------
+/*
+!/.gitignore
+!/README.md
+!/backend/
+!/ml/
+!/rice_blast_detector/
+
+# --- Secrets: never commit -------------------------------------------------
+**/kaggle.json
+**/.env
+**/*.jks
+**/*.keystore
+**/key.properties
+**/local.properties
+
+# --- Python ----------------------------------------------------------------
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+
+# --- ML: datasets and heavy artefacts --------------------------------------
+# Datasets are public; download them with ml/fetch_real_data.py / fetch_one.py.
+/ml/data/raw/
+/ml/data/downloads/
+# Trained checkpoints and exports (about 1.5 GB); the deployed model lives in backend/models/.
+/ml/outputs/*.pt
+/ml/outputs/*.onnx
+# Run logs and caches
+/ml/outputs/_*
+# Stray empty files
+/ml/Philippines
+/ml/riceleafs
+/ml/full
+/ml/it
+
+# --- Backend runtime data (created automatically at start-up) --------------
+/backend/data/
+/backend/models/*.bak*
+
+# --- Misc ------------------------------------------------------------------
+**/node_modules/
+**/.DS_Store
+**/Thumbs.db

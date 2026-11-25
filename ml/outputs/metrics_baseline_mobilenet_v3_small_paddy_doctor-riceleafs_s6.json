@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_mobilenet_v3_small_paddy_doctor-riceleafs_s6",
+  "model": "mobilenet_v3_small",
+  "dg": "none",
+  "epochs": 20,
+  "seed": 6,
+  "internal_test": {
+    "macro_f1": 98.02,
+    "accuracy": 98.02,
+    "per_class_recall": {
+      "Rice Blast": 95.56,
+      "Brown Spot": 98.52,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        129,
+        4,
+        2
+      ],
+      [
+        2,
+        133,
+        0
+      ],
+      [
+        0,
+        0,
+        135
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 33.27,
+    "accuracy": 39.76,
+    "per_class_recall": {
+      "Rice Blast": 72.5,
+      "Brown Spot": 5.35,
+      "Healthy": 37.0
+    },
+    "confusion_matrix": [
+      [
+        435,
+        24,
+        141
+      ],
+      [
+        401,
+        28,
+        94
+      ],
+      [
+        367,
+        11,
+        222
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 64.75
+}

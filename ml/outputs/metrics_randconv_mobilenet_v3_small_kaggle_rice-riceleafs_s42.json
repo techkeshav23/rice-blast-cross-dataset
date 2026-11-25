@@ -1,0 +1,60 @@
+{
+  "tag": "randconv_mobilenet_v3_small_kaggle_rice-riceleafs_s42",
+  "model": "mobilenet_v3_small",
+  "dg": "randconv",
+  "epochs": 20,
+  "seed": 42,
+  "internal_test": {
+    "macro_f1": 95.97,
+    "accuracy": 96.0,
+    "per_class_recall": {
+      "Rice Blast": 98.67,
+      "Brown Spot": 89.33,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0
+      ],
+      [
+        1,
+        67,
+        7
+      ],
+      [
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 23.25,
+    "accuracy": 33.89,
+    "per_class_recall": {
+      "Rice Blast": 11.17,
+      "Brown Spot": 97.13,
+      "Healthy": 1.5
+    },
+    "confusion_matrix": [
+      [
+        67,
+        525,
+        8
+      ],
+      [
+        12,
+        508,
+        3
+      ],
+      [
+        46,
+        545,
+        9
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 72.72
+}

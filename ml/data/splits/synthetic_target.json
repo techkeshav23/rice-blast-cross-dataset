@@ -1,0 +1,906 @@
+{
+  "domain": "synthetic_target",
+  "role": "external",
+  "records": [
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0000.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0001.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0002.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0003.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0004.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0005.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0006.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0007.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0008.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0009.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0010.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0011.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0012.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0013.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0014.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0015.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0016.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0017.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0018.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0019.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0020.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0021.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0022.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0023.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0024.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0025.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0026.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0027.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0028.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0029.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0030.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0031.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0032.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0033.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0034.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0035.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0036.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0037.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0038.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0039.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0040.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0041.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0042.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0043.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0044.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0045.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0046.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0047.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0048.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0049.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0050.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0051.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0052.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0053.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0054.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0055.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0056.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0057.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0058.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Brown_Spot\\Brown_Spot_0059.jpg",
+      "class": "Brown Spot",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0000.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0001.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0002.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0003.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0004.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0005.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0006.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0007.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0008.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0009.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0010.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0011.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0012.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0013.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0014.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0015.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0016.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0017.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0018.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0019.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0020.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0021.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0022.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0023.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0024.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0025.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0026.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0027.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0028.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0029.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0030.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0031.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0032.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0033.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0034.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0035.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0036.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0037.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0038.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0039.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0040.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0041.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0042.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0043.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0044.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0045.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0046.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0047.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0048.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0049.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0050.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0051.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0052.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0053.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0054.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0055.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0056.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0057.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0058.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Healthy\\Healthy_0059.jpg",
+      "class": "Healthy",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0000.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0001.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0002.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0003.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0004.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0005.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0006.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0007.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0008.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0009.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0010.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0011.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0012.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0013.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0014.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0015.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0016.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0017.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0018.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0019.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0020.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0021.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0022.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0023.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0024.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0025.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0026.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0027.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0028.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0029.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0030.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0031.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0032.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0033.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0034.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0035.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0036.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0037.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0038.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0039.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0040.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0041.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0042.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0043.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0044.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0045.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0046.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0047.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0048.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0049.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0050.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0051.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0052.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0053.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0054.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0055.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0056.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0057.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0058.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    },
+    {
+      "path": "data\\raw\\synthetic_target\\Rice_Blast\\Rice_Blast_0059.jpg",
+      "class": "Rice Blast",
+      "split": "external_test"
+    }
+  ]
+}

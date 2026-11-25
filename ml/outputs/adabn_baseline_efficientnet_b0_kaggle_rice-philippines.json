@@ -1,0 +1,28 @@
+{
+  "method": "baseline",
+  "model": "efficientnet_b0",
+  "pairing": "kaggle_rice-philippines",
+  "seeds": [
+    42,
+    1,
+    2,
+    3
+  ],
+  "no_adapt_mean": 55.5,
+  "no_adapt_std": 4.4,
+  "adabn_mean": 66.79,
+  "adabn_std": 4.16,
+  "improvement": 11.29,
+  "per_seed_no_adapt": [
+    59.2,
+    55.42,
+    58.02,
+    49.34
+  ],
+  "per_seed_adabn": [
+    70.06,
+    69.99,
+    65.8,
+    61.32
+  ]
+}

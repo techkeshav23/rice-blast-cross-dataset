@@ -1,0 +1,60 @@
+{
+  "cells": {
+    "MNet paddy>phil": {
+      "n": 8,
+      "no": 62.64,
+      "eata": 66.21,
+      "sar": 67.83
+    },
+    "MNet kaggle>rice": {
+      "n": 5,
+      "no": 32.44,
+      "eata": 22.94,
+      "sar": 24.49
+    },
+    "ENet paddy>phil": {
+      "n": 6,
+      "no": 69.78,
+      "eata": 67.72,
+      "sar": 62.48
+    },
+    "ENet kaggle>rice": {
+      "n": 6,
+      "no": 26.3,
+      "eata": 48.77,
+      "sar": 49.09
+    },
+    "MNet paddy>rice": {
+      "n": 8,
+      "no": 33.86,
+      "eata": 28.92,
+      "sar": 30.05
+    },
+    "ENet paddy>rice": {
+      "n": 8,
+      "no": 32.83,
+      "eata": 33.16,
+      "sar": 32.24
+    },
+    "MNet kaggle>phil": {
+      "n": 8,
+      "no": 41.17,
+      "eata": 48.16,
+      "sar": 47.7
+    },
+    "ENet kaggle>phil": {
+      "n": 8,
+      "no": 57.84,
+      "eata": 69.13,
+      "sar": 63.37
+    }
+  },
+  "mean_gain": {
+    "eata": 3.52,
+    "sar": 2.55
+  },
+  "worst_cell": {
+    "eata": -9.5,
+    "sar": -7.95
+  }
+}

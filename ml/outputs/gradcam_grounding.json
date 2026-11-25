@@ -1,0 +1,34 @@
+{
+  "n_images": 56,
+  "cam_percentile": 80.0,
+  "leaf_mass": {
+    "no_adapt": 0.4893,
+    "adabn": 0.3997,
+    "delta": -0.0896,
+    "p": 0.0
+  },
+  "lesion_mass": {
+    "no_adapt": 0.1317,
+    "adabn": 0.1118,
+    "delta": -0.0198,
+    "p": 0.0033
+  },
+  "lesion_iou": {
+    "no_adapt": 0.1302,
+    "adabn": 0.1106,
+    "delta": -0.0196,
+    "p": 0.0214
+  },
+  "pointing_leaf": {
+    "no_adapt": 0.8214,
+    "adabn": 0.6071,
+    "delta": -0.2143,
+    "p": 0.0062
+  },
+  "pointing_lesion": {
+    "no_adapt": 0.1071,
+    "adabn": 0.2143,
+    "delta": 0.1071,
+    "p": 0.057
+  }
+}

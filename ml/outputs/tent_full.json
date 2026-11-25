@@ -1,0 +1,22 @@
+{
+  "MobileNetV3 Canopy": {
+    "n": 8,
+    "tent": 66.3,
+    "std": 7.58
+  },
+  "MobileNetV3 Single-leaf": {
+    "n": 5,
+    "tent": 24.83,
+    "std": 8.91
+  },
+  "EfficientNet Canopy": {
+    "n": 6,
+    "tent": 69.3,
+    "std": 3.11
+  },
+  "EfficientNet Single-leaf": {
+    "n": 6,
+    "tent": 47.05,
+    "std": 3.3
+  }
+}

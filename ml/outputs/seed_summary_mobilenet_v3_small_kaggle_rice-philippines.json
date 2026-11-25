@@ -1,0 +1,141 @@
+{
+  "model": "mobilenet_v3_small",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "epochs": 20,
+  "batch": 64,
+  "source": "kaggle_rice",
+  "target": "philippines",
+  "methods": {
+    "baseline": {
+      "internal_mean": 99.17,
+      "internal_std": 0.44,
+      "external_mean": 41.16,
+      "external_std": 6.64,
+      "gap_mean": 58.0,
+      "gap_std": 6.66,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 98.67,
+          "external": 46.61,
+          "gap": 52.06
+        },
+        {
+          "seed": 1,
+          "internal": 98.67,
+          "external": 43.28,
+          "gap": 55.39
+        },
+        {
+          "seed": 2,
+          "internal": 99.56,
+          "external": 29.46,
+          "gap": 70.1
+        },
+        {
+          "seed": 3,
+          "internal": 99.11,
+          "external": 38.73,
+          "gap": 60.38
+        },
+        {
+          "seed": 4,
+          "internal": 99.56,
+          "external": 40.94,
+          "gap": 58.62
+        },
+        {
+          "seed": 5,
+          "internal": 98.67,
+          "external": 35.13,
+          "gap": 63.54
+        },
+        {
+          "seed": 6,
+          "internal": 99.56,
+          "external": 50.09,
+          "gap": 49.47
+        },
+        {
+          "seed": 7,
+          "internal": 99.56,
+          "external": 45.08,
+          "gap": 54.48
+        }
+      ]
+    },
+    "mixstyle": {
+      "internal_mean": 98.94,
+      "internal_std": 0.63,
+      "external_mean": 53.32,
+      "external_std": 8.26,
+      "gap_mean": 45.62,
+      "gap_std": 8.17,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 99.11,
+          "external": 46.61,
+          "gap": 52.5
+        },
+        {
+          "seed": 1,
+          "internal": 98.23,
+          "external": 61.41,
+          "gap": 36.82
+        },
+        {
+          "seed": 2,
+          "internal": 99.56,
+          "external": 56.93,
+          "gap": 42.63
+        },
+        {
+          "seed": 3,
+          "internal": 99.11,
+          "external": 44.6,
+          "gap": 54.51
+        },
+        {
+          "seed": 4,
+          "internal": 97.77,
+          "external": 43.32,
+          "gap": 54.45
+        },
+        {
+          "seed": 5,
+          "internal": 99.11,
+          "external": 58.74,
+          "gap": 40.37
+        },
+        {
+          "seed": 6,
+          "internal": 99.56,
+          "external": 49.94,
+          "gap": 49.62
+        },
+        {
+          "seed": 7,
+          "internal": 99.11,
+          "external": 65.02,
+          "gap": 34.09
+        }
+      ]
+    }
+  },
+  "vs_baseline": {
+    "mixstyle": {
+      "gap_reduction": 12.38,
+      "external_lift": 12.16
+    }
+  }
+}

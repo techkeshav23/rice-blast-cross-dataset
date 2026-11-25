@@ -1,0 +1,141 @@
+{
+  "model": "efficientnet_b0",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "epochs": 20,
+  "batch": 64,
+  "source": "paddy_doctor",
+  "target": "riceleafs",
+  "methods": {
+    "baseline": {
+      "internal_mean": 97.44,
+      "internal_std": 0.37,
+      "external_mean": 32.85,
+      "external_std": 5.94,
+      "gap_mean": 64.59,
+      "gap_std": 6.09,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 96.78,
+          "external": 38.88,
+          "gap": 57.9
+        },
+        {
+          "seed": 1,
+          "internal": 97.78,
+          "external": 39.2,
+          "gap": 58.58
+        },
+        {
+          "seed": 2,
+          "internal": 97.28,
+          "external": 30.57,
+          "gap": 66.71
+        },
+        {
+          "seed": 3,
+          "internal": 97.53,
+          "external": 31.77,
+          "gap": 65.76
+        },
+        {
+          "seed": 4,
+          "internal": 98.02,
+          "external": 23.66,
+          "gap": 74.36
+        },
+        {
+          "seed": 5,
+          "internal": 97.29,
+          "external": 33.8,
+          "gap": 63.49
+        },
+        {
+          "seed": 6,
+          "internal": 97.29,
+          "external": 26.18,
+          "gap": 71.11
+        },
+        {
+          "seed": 7,
+          "internal": 97.53,
+          "external": 38.71,
+          "gap": 58.82
+        }
+      ]
+    },
+    "mixstyle": {
+      "internal_mean": 97.68,
+      "internal_std": 0.62,
+      "external_mean": 29.08,
+      "external_std": 7.41,
+      "gap_mean": 68.6,
+      "gap_std": 7.4,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 98.27,
+          "external": 44.53,
+          "gap": 53.74
+        },
+        {
+          "seed": 1,
+          "internal": 97.52,
+          "external": 19.25,
+          "gap": 78.27
+        },
+        {
+          "seed": 2,
+          "internal": 98.27,
+          "external": 26.53,
+          "gap": 71.74
+        },
+        {
+          "seed": 3,
+          "internal": 96.8,
+          "external": 32.91,
+          "gap": 63.89
+        },
+        {
+          "seed": 4,
+          "internal": 97.77,
+          "external": 28.2,
+          "gap": 69.57
+        },
+        {
+          "seed": 5,
+          "internal": 98.27,
+          "external": 24.67,
+          "gap": 73.6
+        },
+        {
+          "seed": 6,
+          "internal": 97.78,
+          "external": 26.51,
+          "gap": 71.27
+        },
+        {
+          "seed": 7,
+          "internal": 96.79,
+          "external": 30.07,
+          "gap": 66.72
+        }
+      ]
+    }
+  },
+  "vs_baseline": {
+    "mixstyle": {
+      "gap_reduction": -4.01,
+      "external_lift": -3.77
+    }
+  }
+}

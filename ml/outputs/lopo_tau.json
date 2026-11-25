@@ -1,0 +1,10 @@
+{
+  "chosen_tau": {
+    "P>Ph": 0.15,
+    "K>R": 0.1,
+    "P>R": 0.15,
+    "K>Ph": 0.15
+  },
+  "oos_mean_gain": 5.73,
+  "oos_worst_cell": -3.53
+}

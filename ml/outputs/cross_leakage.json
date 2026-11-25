@@ -1,0 +1,340 @@
+{
+  "datasets": {
+    "paddy_doctor": 2700,
+    "philippines": 924,
+    "kaggle_rice": 1500,
+    "riceleafs": 1723
+  },
+  "near_bits_threshold": 5,
+  "pairings": {
+    "paddy_doctor->philippines": {
+      "regime": "Canopy",
+      "target_n": 924,
+      "exact_dups": 28,
+      "near_dups": 4,
+      "overlap_pct_of_target": 3.463,
+      "dist_histogram": {
+        "0": 28,
+        "2": 2,
+        "4": 2,
+        "6": 3,
+        "8": 5,
+        "10": 5,
+        "12": 24,
+        "14": 92,
+        "16": 286,
+        "18": 303,
+        "20": 154,
+        "22": 20
+      },
+      "examples": [
+        {
+          "dist": 4,
+          "b_file": "philippines_Brown_Spot_00248.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00148.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00249.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00166.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00250.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00167.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00251.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00168.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00252.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00169.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00253.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00177.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00254.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00178.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00255.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00191.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00256.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00407.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00257.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00408.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00258.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00409.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00259.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00149.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00260.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00415.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00261.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00416.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 2,
+          "b_file": "philippines_Brown_Spot_00262.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00418.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00263.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00430.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00264.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00729.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00265.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00732.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00266.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00736.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00267.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00737.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00268.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00738.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00269.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00739.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00270.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00150.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00271.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00740.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 4,
+          "b_file": "philippines_Brown_Spot_00275.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00008.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 2,
+          "b_file": "philippines_Brown_Spot_00278.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00600.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00281.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00151.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00292.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00152.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00293.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00153.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00294.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00154.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00295.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00155.jpg",
+          "a_class": "Brown_Spot"
+        },
+        {
+          "dist": 0,
+          "b_file": "philippines_Brown_Spot_00296.jpg",
+          "b_class": "Brown_Spot",
+          "a_file": "paddy_doctor_Brown_Spot_00165.jpg",
+          "a_class": "Brown_Spot"
+        }
+      ]
+    },
+    "kaggle_rice->riceleafs": {
+      "regime": "Single-leaf",
+      "target_n": 1723,
+      "exact_dups": 0,
+      "near_dups": 0,
+      "overlap_pct_of_target": 0.0,
+      "dist_histogram": {
+        "10": 1,
+        "12": 9,
+        "14": 41,
+        "16": 258,
+        "18": 861,
+        "20": 536,
+        "22": 17
+      },
+      "examples": []
+    },
+    "paddy_doctor->riceleafs": {
+      "regime": "Canopy->leaf",
+      "target_n": 1723,
+      "exact_dups": 0,
+      "near_dups": 0,
+      "overlap_pct_of_target": 0.0,
+      "dist_histogram": {
+        "10": 2,
+        "12": 9,
+        "14": 51,
+        "16": 354,
+        "18": 894,
+        "20": 410,
+        "22": 3
+      },
+      "examples": []
+    },
+    "kaggle_rice->philippines": {
+      "regime": "Leaf->canopy",
+      "target_n": 924,
+      "exact_dups": 0,
+      "near_dups": 0,
+      "overlap_pct_of_target": 0.0,
+      "dist_histogram": {
+        "12": 2,
+        "14": 24,
+        "16": 137,
+        "18": 462,
+        "20": 288,
+        "22": 11
+      },
+      "examples": []
+    }
+  },
+  "all_pairs": {
+    "paddy_doctor<->kaggle_rice": {
+      "exact_dups": 0,
+      "near_dups": 0,
+      "pct_of_kaggle": 0.0,
+      "dist_histogram": {
+        "10": 1,
+        "12": 7,
+        "14": 44,
+        "16": 306,
+        "18": 743,
+        "20": 387,
+        "22": 12
+      },
+      "examples": []
+    },
+    "paddy_doctor<->riceleafs": {
+      "exact_dups": 0,
+      "near_dups": 0,
+      "pct_of_kaggle": 0.0,
+      "dist_histogram": {
+        "10": 2,
+        "12": 9,
+        "14": 51,
+        "16": 354,
+        "18": 894,
+        "20": 410,
+        "22": 3
+      },
+      "examples": []
+    }
+  }
+}

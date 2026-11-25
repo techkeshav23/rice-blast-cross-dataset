@@ -1,0 +1,115 @@
+{
+  "model": "efficientnet_b0",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "epochs": 20,
+  "batch": 64,
+  "source": "paddy_doctor",
+  "target": "philippines",
+  "methods": {
+    "baseline": {
+      "internal_mean": 97.44,
+      "internal_std": 0.44,
+      "external_mean": 71.11,
+      "external_std": 4.9,
+      "gap_mean": 26.34,
+      "gap_std": 5.02,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 96.78,
+          "external": 71.62,
+          "gap": 25.16
+        },
+        {
+          "seed": 1,
+          "internal": 97.78,
+          "external": 74.63,
+          "gap": 23.15
+        },
+        {
+          "seed": 2,
+          "internal": 97.53,
+          "external": 67.17,
+          "gap": 30.36
+        },
+        {
+          "seed": 3,
+          "internal": 97.27,
+          "external": 78.91,
+          "gap": 18.36
+        },
+        {
+          "seed": 4,
+          "internal": 98.02,
+          "external": 67.1,
+          "gap": 30.92
+        },
+        {
+          "seed": 5,
+          "internal": 97.28,
+          "external": 67.22,
+          "gap": 30.06
+        }
+      ]
+    },
+    "mixstyle": {
+      "internal_mean": 97.61,
+      "internal_std": 0.69,
+      "external_mean": 71.12,
+      "external_std": 10.36,
+      "gap_mean": 26.49,
+      "gap_std": 10.69,
+      "per_seed": [
+        {
+          "seed": 42,
+          "internal": 97.28,
+          "external": 69.96,
+          "gap": 27.32
+        },
+        {
+          "seed": 1,
+          "internal": 97.52,
+          "external": 74.27,
+          "gap": 23.25
+        },
+        {
+          "seed": 2,
+          "internal": 98.76,
+          "external": 54.46,
+          "gap": 44.3
+        },
+        {
+          "seed": 3,
+          "internal": 96.8,
+          "external": 76.6,
+          "gap": 20.2
+        },
+        {
+          "seed": 4,
+          "internal": 97.28,
+          "external": 66.32,
+          "gap": 30.96
+        },
+        {
+          "seed": 5,
+          "internal": 98.02,
+          "external": 85.09,
+          "gap": 12.93
+        }
+      ]
+    }
+  },
+  "vs_baseline": {
+    "mixstyle": {
+      "gap_reduction": -0.15,
+      "external_lift": 0.01
+    }
+  }
+}

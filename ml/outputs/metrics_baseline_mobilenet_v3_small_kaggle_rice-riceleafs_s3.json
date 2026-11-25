@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_mobilenet_v3_small_kaggle_rice-riceleafs_s3",
+  "model": "mobilenet_v3_small",
+  "dg": "none",
+  "epochs": 20,
+  "seed": 3,
+  "internal_test": {
+    "macro_f1": 98.66,
+    "accuracy": 98.67,
+    "per_class_recall": {
+      "Rice Blast": 98.67,
+      "Brown Spot": 97.33,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0
+      ],
+      [
+        1,
+        73,
+        1
+      ],
+      [
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 24.56,
+    "accuracy": 33.66,
+    "per_class_recall": {
+      "Rice Blast": 13.67,
+      "Brown Spot": 91.97,
+      "Healthy": 2.83
+    },
+    "confusion_matrix": [
+      [
+        82,
+        511,
+        7
+      ],
+      [
+        38,
+        481,
+        4
+      ],
+      [
+        50,
+        533,
+        17
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 74.1
+}

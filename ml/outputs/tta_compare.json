@@ -1,0 +1,86 @@
+{
+  "main": {
+    "MobileNetV3 Canopy": {
+      "no_adapt": 59.32,
+      "adabn": 64.57,
+      "tent": 59.52,
+      "gated": 59.32
+    },
+    "MobileNetV3 Single-leaf": {
+      "no_adapt": 36.37,
+      "adabn": 34.66,
+      "tent": 27.21,
+      "gated": 39.54
+    },
+    "EfficientNet Canopy": {
+      "no_adapt": 71.14,
+      "adabn": 66.36,
+      "tent": 70.86,
+      "gated": 71.14
+    },
+    "EfficientNet Single-leaf": {
+      "no_adapt": 34.29,
+      "adabn": 46.89,
+      "tent": 45.31,
+      "gated": 40.61
+    }
+  },
+  "partial_lam": {
+    "MobileNetV3 Canopy": {
+      "0.0": 59.13,
+      "0.25": 64.01,
+      "0.5": 68.81,
+      "0.75": 67.87,
+      "1.0": 61.79
+    },
+    "MobileNetV3 Single-leaf": {
+      "0.0": 25.52,
+      "0.25": 18.92,
+      "0.5": 19.05,
+      "0.75": 25.71,
+      "1.0": 35.04
+    },
+    "EfficientNet Canopy": {
+      "0.0": 71.62,
+      "0.25": 76.85,
+      "0.5": 74.86,
+      "0.75": 72.57,
+      "1.0": 68.57
+    },
+    "EfficientNet Single-leaf": {
+      "0.0": 27.13,
+      "0.25": 27.25,
+      "0.5": 29.57,
+      "0.75": 35.58,
+      "1.0": 45.97
+    }
+  },
+  "tau": {
+    "MobileNetV3 Canopy": {
+      "tau=0.02": 0,
+      "tau=0.05": 0,
+      "tau=0.1": 0
+    },
+    "MobileNetV3 Single-leaf": {
+      "tau=0.02": 1,
+      "tau=0.05": 1,
+      "tau=0.1": 1
+    },
+    "EfficientNet Canopy": {
+      "tau=0.02": 0,
+      "tau=0.05": 0,
+      "tau=0.1": 0
+    },
+    "EfficientNet Single-leaf": {
+      "tau=0.02": 1,
+      "tau=0.05": 1,
+      "tau=0.1": 2
+    }
+  },
+  "seeds": [
+    42,
+    1,
+    2
+  ],
+  "tau_used": 0.05
+}

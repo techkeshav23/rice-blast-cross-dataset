@@ -1,0 +1,31 @@
+{
+  "method": "baseline",
+  "model": "mobilenet_v3_small",
+  "pairing": "kaggle_rice-riceleafs",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "no_adapt_mean": 32.46,
+  "no_adapt_std": 8.66,
+  "adabn_mean": 34.11,
+  "adabn_std": 0.89,
+  "improvement": 1.65,
+  "per_seed_no_adapt": [
+    25.52,
+    42.5,
+    41.08,
+    24.56,
+    28.64
+  ],
+  "per_seed_adabn": [
+    35.04,
+    34.82,
+    34.13,
+    32.82,
+    33.74
+  ]
+}

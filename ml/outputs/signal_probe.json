@@ -1,0 +1,74 @@
+[
+  {
+    "cell": "ENet paddy>phil",
+    "delta": -5.96,
+    "min_share": 0.267,
+    "ent0": 0.402,
+    "ent1": 0.248,
+    "d_ent": -0.154,
+    "bn_dist": 0.0053
+  },
+  {
+    "cell": "MNet paddy>rice",
+    "delta": -3.77,
+    "min_share": 0.068,
+    "ent0": 0.622,
+    "ent1": 0.376,
+    "d_ent": -0.247,
+    "bn_dist": 0.0448
+  },
+  {
+    "cell": "ENet paddy>rice",
+    "delta": -0.76,
+    "min_share": 0.055,
+    "ent0": 0.913,
+    "ent1": 0.312,
+    "d_ent": -0.6,
+    "bn_dist": 0.0409
+  },
+  {
+    "cell": "MNet kaggle>rice",
+    "delta": 1.65,
+    "min_share": 0.061,
+    "ent0": 0.582,
+    "ent1": 0.44,
+    "d_ent": -0.142,
+    "bn_dist": 0.0497
+  },
+  {
+    "cell": "MNet paddy>phil",
+    "delta": 5.15,
+    "min_share": 0.194,
+    "ent0": 0.265,
+    "ent1": 0.275,
+    "d_ent": 0.01,
+    "bn_dist": 0.0061
+  },
+  {
+    "cell": "ENet kaggle>phil",
+    "delta": 11.29,
+    "min_share": 0.064,
+    "ent0": 0.307,
+    "ent1": 0.348,
+    "d_ent": 0.04,
+    "bn_dist": 0.0083
+  },
+  {
+    "cell": "MNet kaggle>phil",
+    "delta": 12.76,
+    "min_share": 0.122,
+    "ent0": 0.266,
+    "ent1": 0.391,
+    "d_ent": 0.125,
+    "bn_dist": 0.0081
+  },
+  {
+    "cell": "ENet kaggle>rice",
+    "delta": 21.44,
+    "min_share": 0.058,
+    "ent0": 0.523,
+    "ent1": 0.387,
+    "d_ent": -0.136,
+    "bn_dist": 0.0528
+  }
+]

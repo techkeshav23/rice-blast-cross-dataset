@@ -1,0 +1,28 @@
+{
+  "method": "baseline",
+  "model": "mobilenet_v3_small",
+  "pairing": "paddy_doctor-riceleafs",
+  "seeds": [
+    42,
+    1,
+    2,
+    3
+  ],
+  "no_adapt_mean": 33.51,
+  "no_adapt_std": 3.92,
+  "adabn_mean": 29.74,
+  "adabn_std": 1.13,
+  "improvement": -3.77,
+  "per_seed_no_adapt": [
+    37.31,
+    29.89,
+    30.37,
+    36.46
+  ],
+  "per_seed_adabn": [
+    29.39,
+    31.4,
+    28.9,
+    29.27
+  ]
+}

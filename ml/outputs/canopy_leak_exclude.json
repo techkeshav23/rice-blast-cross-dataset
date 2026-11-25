@@ -1,0 +1,235 @@
+{
+  "pairing": "paddy_doctor->philippines",
+  "threshold_bits": 5,
+  "n_leaked_target_images": 32,
+  "target_total": 924,
+  "leak_pct": 3.463,
+  "leaked_target_files": [
+    "philippines_Brown_Spot_00248.jpg",
+    "philippines_Brown_Spot_00249.jpg",
+    "philippines_Brown_Spot_00250.jpg",
+    "philippines_Brown_Spot_00251.jpg",
+    "philippines_Brown_Spot_00252.jpg",
+    "philippines_Brown_Spot_00253.jpg",
+    "philippines_Brown_Spot_00254.jpg",
+    "philippines_Brown_Spot_00255.jpg",
+    "philippines_Brown_Spot_00256.jpg",
+    "philippines_Brown_Spot_00257.jpg",
+    "philippines_Brown_Spot_00258.jpg",
+    "philippines_Brown_Spot_00259.jpg",
+    "philippines_Brown_Spot_00260.jpg",
+    "philippines_Brown_Spot_00261.jpg",
+    "philippines_Brown_Spot_00262.jpg",
+    "philippines_Brown_Spot_00263.jpg",
+    "philippines_Brown_Spot_00264.jpg",
+    "philippines_Brown_Spot_00265.jpg",
+    "philippines_Brown_Spot_00266.jpg",
+    "philippines_Brown_Spot_00267.jpg",
+    "philippines_Brown_Spot_00268.jpg",
+    "philippines_Brown_Spot_00269.jpg",
+    "philippines_Brown_Spot_00270.jpg",
+    "philippines_Brown_Spot_00271.jpg",
+    "philippines_Brown_Spot_00275.jpg",
+    "philippines_Brown_Spot_00278.jpg",
+    "philippines_Brown_Spot_00281.jpg",
+    "philippines_Brown_Spot_00292.jpg",
+    "philippines_Brown_Spot_00293.jpg",
+    "philippines_Brown_Spot_00294.jpg",
+    "philippines_Brown_Spot_00295.jpg",
+    "philippines_Brown_Spot_00296.jpg"
+  ],
+  "pairs": [
+    {
+      "target": "philippines_Brown_Spot_00248.jpg",
+      "source": "paddy_doctor_Brown_Spot_00148.jpg",
+      "dist": 4,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00249.jpg",
+      "source": "paddy_doctor_Brown_Spot_00166.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00250.jpg",
+      "source": "paddy_doctor_Brown_Spot_00167.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00251.jpg",
+      "source": "paddy_doctor_Brown_Spot_00168.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00252.jpg",
+      "source": "paddy_doctor_Brown_Spot_00169.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00253.jpg",
+      "source": "paddy_doctor_Brown_Spot_00177.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00254.jpg",
+      "source": "paddy_doctor_Brown_Spot_00178.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00255.jpg",
+      "source": "paddy_doctor_Brown_Spot_00191.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00256.jpg",
+      "source": "paddy_doctor_Brown_Spot_00407.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00257.jpg",
+      "source": "paddy_doctor_Brown_Spot_00408.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00258.jpg",
+      "source": "paddy_doctor_Brown_Spot_00409.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00259.jpg",
+      "source": "paddy_doctor_Brown_Spot_00149.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00260.jpg",
+      "source": "paddy_doctor_Brown_Spot_00415.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00261.jpg",
+      "source": "paddy_doctor_Brown_Spot_00416.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00262.jpg",
+      "source": "paddy_doctor_Brown_Spot_00418.jpg",
+      "dist": 2,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00263.jpg",
+      "source": "paddy_doctor_Brown_Spot_00430.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00264.jpg",
+      "source": "paddy_doctor_Brown_Spot_00729.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00265.jpg",
+      "source": "paddy_doctor_Brown_Spot_00732.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00266.jpg",
+      "source": "paddy_doctor_Brown_Spot_00736.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00267.jpg",
+      "source": "paddy_doctor_Brown_Spot_00737.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00268.jpg",
+      "source": "paddy_doctor_Brown_Spot_00738.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00269.jpg",
+      "source": "paddy_doctor_Brown_Spot_00739.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00270.jpg",
+      "source": "paddy_doctor_Brown_Spot_00150.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00271.jpg",
+      "source": "paddy_doctor_Brown_Spot_00740.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00275.jpg",
+      "source": "paddy_doctor_Brown_Spot_00008.jpg",
+      "dist": 4,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00278.jpg",
+      "source": "paddy_doctor_Brown_Spot_00600.jpg",
+      "dist": 2,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00281.jpg",
+      "source": "paddy_doctor_Brown_Spot_00151.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00292.jpg",
+      "source": "paddy_doctor_Brown_Spot_00152.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00293.jpg",
+      "source": "paddy_doctor_Brown_Spot_00153.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00294.jpg",
+      "source": "paddy_doctor_Brown_Spot_00154.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00295.jpg",
+      "source": "paddy_doctor_Brown_Spot_00155.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    },
+    {
+      "target": "philippines_Brown_Spot_00296.jpg",
+      "source": "paddy_doctor_Brown_Spot_00165.jpg",
+      "dist": 0,
+      "class": "Brown_Spot"
+    }
+  ]
+}

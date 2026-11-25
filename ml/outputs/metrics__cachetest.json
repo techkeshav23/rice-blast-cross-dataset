@@ -1,0 +1,60 @@
+{
+  "tag": "_cachetest",
+  "model": "mobilenet_v3_small",
+  "dg": "none",
+  "epochs": 3,
+  "seed": 42,
+  "internal_test": {
+    "macro_f1": 90.66,
+    "accuracy": 90.62,
+    "per_class_recall": {
+      "Rice Blast": 84.44,
+      "Brown Spot": 95.56,
+      "Healthy": 91.85
+    },
+    "confusion_matrix": [
+      [
+        114,
+        15,
+        6
+      ],
+      [
+        4,
+        129,
+        2
+      ],
+      [
+        0,
+        11,
+        124
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 77.53,
+    "accuracy": 76.85,
+    "per_class_recall": {
+      "Rice Blast": 79.41,
+      "Brown Spot": 66.06,
+      "Healthy": 94.17
+    },
+    "confusion_matrix": [
+      [
+        189,
+        45,
+        4
+      ],
+      [
+        110,
+        292,
+        40
+      ],
+      [
+        2,
+        12,
+        226
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 13.13
+}

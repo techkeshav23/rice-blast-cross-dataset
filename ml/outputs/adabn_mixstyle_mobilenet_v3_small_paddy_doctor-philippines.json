@@ -1,0 +1,40 @@
+{
+  "method": "mixstyle",
+  "model": "mobilenet_v3_small",
+  "pairing": "paddy_doctor-philippines",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "no_adapt_mean": 64.65,
+  "no_adapt_std": 6.73,
+  "adabn_mean": 65.8,
+  "adabn_std": 4.74,
+  "improvement": 1.15,
+  "per_seed_no_adapt": [
+    60.96,
+    71.88,
+    57.01,
+    75.31,
+    64.94,
+    56.23,
+    63.55,
+    67.35
+  ],
+  "per_seed_adabn": [
+    63.01,
+    73.19,
+    61.14,
+    71.12,
+    61.63,
+    63.38,
+    63.26,
+    69.66
+  ]
+}

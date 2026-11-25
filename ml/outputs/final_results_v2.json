@@ -1,0 +1,299 @@
+{
+  "backbones": {
+    "mobilenet_v3_small": {
+      "name": "MobileNetV3-Small",
+      "pairings": {
+        "paddy_doctor-philippines": {
+          "title": "Canopy (Paddy Doctor -> Philippines)",
+          "n_seeds": 8,
+          "methods": {
+            "baseline": {
+              "internal_mean": 97.25,
+              "external_mean": 64.55,
+              "external_std": 6.08,
+              "gap_mean": 32.7,
+              "per_seed_external": [
+                59.13,
+                58.77,
+                60.05,
+                68.28,
+                73.37,
+                72.91,
+                61.58,
+                62.32
+              ]
+            },
+            "mixstyle": {
+              "internal_mean": 97.25,
+              "external_mean": 64.65,
+              "external_std": 6.73,
+              "gap_mean": 32.6,
+              "per_seed_external": [
+                60.96,
+                71.88,
+                57.01,
+                75.31,
+                64.94,
+                56.23,
+                63.55,
+                67.35
+              ],
+              "vs_baseline": {
+                "delta": 0.1,
+                "t": 0.03,
+                "p": 0.9761,
+                "sig": false
+              }
+            },
+            "randconv": {
+              "internal_mean": 95.76,
+              "external_mean": 61.58,
+              "external_std": 9.69,
+              "gap_mean": 34.18,
+              "per_seed_external": [
+                63.02,
+                75.87,
+                51.31,
+                67.35,
+                52.34,
+                53.69,
+                55.94,
+                73.1
+              ],
+              "vs_baseline": {
+                "delta": -2.97,
+                "t": -0.62,
+                "p": 0.5527,
+                "sig": false
+              }
+            }
+          },
+          "adabn_baseline": {
+            "no_adapt": 64.55,
+            "adabn": 69.7,
+            "improvement": 5.15,
+            "t": 5.24,
+            "p": 0.0012,
+            "sig": true,
+            "verdict": "HELPS"
+          }
+        },
+        "kaggle_rice-riceleafs": {
+          "title": "Single-leaf (anshulm -> riceleafs)",
+          "n_seeds": 5,
+          "methods": {
+            "baseline": {
+              "internal_mean": 99.02,
+              "external_mean": 32.46,
+              "external_std": 8.66,
+              "gap_mean": 66.56,
+              "per_seed_external": [
+                25.52,
+                42.5,
+                41.08,
+                24.56,
+                28.64
+              ]
+            },
+            "mixstyle": {
+              "internal_mean": 99.29,
+              "external_mean": 24.3,
+              "external_std": 4.88,
+              "gap_mean": 74.99,
+              "per_seed_external": [
+                24.89,
+                26.93,
+                17.33,
+                22.15,
+                30.19
+              ],
+              "vs_baseline": {
+                "delta": -8.16,
+                "t": -1.66,
+                "p": 0.1717,
+                "sig": false
+              }
+            },
+            "randconv": {
+              "internal_mean": 97.5,
+              "external_mean": 30.03,
+              "external_std": 4.04,
+              "gap_mean": 67.47,
+              "per_seed_external": [
+                23.25,
+                33.05,
+                33.04,
+                31.02,
+                29.8
+              ],
+              "vs_baseline": {
+                "delta": -2.43,
+                "t": -0.83,
+                "p": 0.4551,
+                "sig": false
+              }
+            }
+          },
+          "adabn_baseline": {
+            "no_adapt": 32.46,
+            "adabn": 34.11,
+            "improvement": 1.65,
+            "t": 0.44,
+            "p": 0.6812,
+            "sig": false,
+            "verdict": "HELPS"
+          }
+        }
+      }
+    },
+    "efficientnet_b0": {
+      "name": "EfficientNet-B0",
+      "pairings": {
+        "paddy_doctor-philippines": {
+          "title": "Canopy (Paddy Doctor -> Philippines)",
+          "n_seeds": 6,
+          "methods": {
+            "baseline": {
+              "internal_mean": 97.44,
+              "external_mean": 71.11,
+              "external_std": 4.9,
+              "gap_mean": 26.34,
+              "per_seed_external": [
+                71.62,
+                74.63,
+                67.17,
+                78.91,
+                67.1,
+                67.22
+              ]
+            },
+            "mixstyle": {
+              "internal_mean": 97.61,
+              "external_mean": 71.12,
+              "external_std": 10.36,
+              "gap_mean": 26.49,
+              "per_seed_external": [
+                69.96,
+                74.27,
+                54.46,
+                76.6,
+                66.32,
+                85.09
+              ],
+              "vs_baseline": {
+                "delta": 0.01,
+                "t": 0.0,
+                "p": 0.9984,
+                "sig": false
+              }
+            }
+          },
+          "adabn_baseline": {
+            "no_adapt": 71.11,
+            "adabn": 65.15,
+            "improvement": -5.96,
+            "t": -3.31,
+            "p": 0.0213,
+            "sig": true,
+            "verdict": "HURTS"
+          }
+        },
+        "kaggle_rice-riceleafs": {
+          "title": "Single-leaf (anshulm -> riceleafs)",
+          "n_seeds": 6,
+          "methods": {
+            "baseline": {
+              "internal_mean": 98.74,
+              "external_mean": 26.3,
+              "external_std": 10.21,
+              "gap_mean": 72.44,
+              "per_seed_external": [
+                27.13,
+                32.58,
+                43.15,
+                17.67,
+                20.25,
+                17.02
+              ]
+            },
+            "mixstyle": {
+              "internal_mean": 99.26,
+              "external_mean": 31.69,
+              "external_std": 5.79,
+              "gap_mean": 67.57,
+              "per_seed_external": [
+                37.1,
+                22.19,
+                28.22,
+                31.55,
+                37.35,
+                33.74
+              ],
+              "vs_baseline": {
+                "delta": 5.39,
+                "t": 0.92,
+                "p": 0.3977,
+                "sig": false
+              }
+            }
+          },
+          "adabn_baseline": {
+            "no_adapt": 26.3,
+            "adabn": 47.74,
+            "improvement": 21.44,
+            "t": 4.66,
+            "p": 0.0055,
+            "sig": true,
+            "verdict": "HELPS"
+          }
+        }
+      }
+    }
+  },
+  "adabn_grid": [
+    {
+      "backbone": "MobileNetV3-Small",
+      "pairing": "canopy",
+      "no_adapt": 64.55,
+      "adabn": 69.7,
+      "improvement": 5.15,
+      "t": 5.24,
+      "p": 0.0012,
+      "sig": true,
+      "verdict": "HELPS"
+    },
+    {
+      "backbone": "MobileNetV3-Small",
+      "pairing": "single-leaf",
+      "no_adapt": 32.46,
+      "adabn": 34.11,
+      "improvement": 1.65,
+      "t": 0.44,
+      "p": 0.6812,
+      "sig": false,
+      "verdict": "HELPS"
+    },
+    {
+      "backbone": "EfficientNet-B0",
+      "pairing": "canopy",
+      "no_adapt": 71.11,
+      "adabn": 65.15,
+      "improvement": -5.96,
+      "t": -3.31,
+      "p": 0.0213,
+      "sig": true,
+      "verdict": "HURTS"
+    },
+    {
+      "backbone": "EfficientNet-B0",
+      "pairing": "single-leaf",
+      "no_adapt": 26.3,
+      "adabn": 47.74,
+      "improvement": 21.44,
+      "t": 4.66,
+      "p": 0.0055,
+      "sig": true,
+      "verdict": "HELPS"
+    }
+  ]
+}

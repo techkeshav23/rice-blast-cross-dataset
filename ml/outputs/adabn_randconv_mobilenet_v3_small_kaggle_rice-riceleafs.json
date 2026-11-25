@@ -1,0 +1,31 @@
+{
+  "method": "randconv",
+  "model": "mobilenet_v3_small",
+  "pairing": "kaggle_rice-riceleafs",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "no_adapt_mean": 30.03,
+  "no_adapt_std": 4.04,
+  "adabn_mean": 34.29,
+  "adabn_std": 2.36,
+  "improvement": 4.26,
+  "per_seed_no_adapt": [
+    23.25,
+    33.05,
+    33.04,
+    31.02,
+    29.8
+  ],
+  "per_seed_adabn": [
+    37.2,
+    30.9,
+    33.26,
+    34.87,
+    35.21
+  ]
+}

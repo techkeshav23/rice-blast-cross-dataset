@@ -1,0 +1,13 @@
+# Phase 1 (data pipeline) — light, no torch needed
+numpy
+pillow
+scikit-learn
+pandas
+tqdm
+
+# Phase 2+ (training) — uncomment when we start model training:
+# torch
+# torchvision
+# matplotlib
+# grad-cam            # real Grad-CAM (Phase 5)
+# onnx                # export (Phase 5)

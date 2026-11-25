@@ -1,0 +1,60 @@
+{
+  "tag": "mixstyle_mobilenet_v3_small_s2",
+  "model": "mobilenet_v3_small",
+  "dg": "mixstyle",
+  "epochs": 25,
+  "seed": 2,
+  "internal_test": {
+    "macro_f1": 96.3,
+    "accuracy": 96.3,
+    "per_class_recall": {
+      "Rice Blast": 94.07,
+      "Brown Spot": 97.04,
+      "Healthy": 97.78
+    },
+    "confusion_matrix": [
+      [
+        127,
+        6,
+        2
+      ],
+      [
+        4,
+        131,
+        0
+      ],
+      [
+        1,
+        2,
+        132
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 57.01,
+    "accuracy": 56.52,
+    "per_class_recall": {
+      "Rice Blast": 74.79,
+      "Brown Spot": 25.57,
+      "Healthy": 95.42
+    },
+    "confusion_matrix": [
+      [
+        178,
+        43,
+        17
+      ],
+      [
+        242,
+        113,
+        87
+      ],
+      [
+        6,
+        5,
+        229
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 39.29
+}

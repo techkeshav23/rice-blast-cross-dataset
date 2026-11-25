@@ -1,0 +1,436 @@
+{
+  "tau": 0.05,
+  "cells": {
+    "MNet paddy>phil": {
+      "n": 8,
+      "no_adapt": [
+        64.55,
+        6.08
+      ],
+      "always_adabn": [
+        69.7,
+        5.04
+      ],
+      "selective": [
+        64.55,
+        6.08
+      ],
+      "triggered": 0,
+      "min_shares": [
+        0.173,
+        0.142,
+        0.158,
+        0.303,
+        0.272,
+        0.274,
+        0.118,
+        0.264
+      ],
+      "per_seed": {
+        "no_adapt": [
+          59.13,
+          58.77,
+          60.05,
+          68.28,
+          73.37,
+          72.91,
+          61.58,
+          62.32
+        ],
+        "always": [
+          61.79,
+          65.75,
+          66.17,
+          73.62,
+          76.06,
+          74.3,
+          67.74,
+          72.2
+        ],
+        "selective": [
+          59.13,
+          58.77,
+          60.05,
+          68.28,
+          73.37,
+          72.91,
+          61.58,
+          62.32
+        ],
+        "trigger": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "MNet kaggle>rice": {
+      "n": 5,
+      "no_adapt": [
+        32.46,
+        8.66
+      ],
+      "always_adabn": [
+        34.11,
+        0.89
+      ],
+      "selective": [
+        37.04,
+        4.44
+      ],
+      "triggered": 3,
+      "min_shares": [
+        0.008,
+        0.111,
+        0.109,
+        0.016,
+        0.049
+      ],
+      "per_seed": {
+        "no_adapt": [
+          25.52,
+          42.5,
+          41.08,
+          24.56,
+          28.64
+        ],
+        "always": [
+          35.04,
+          34.82,
+          34.13,
+          32.82,
+          33.74
+        ],
+        "selective": [
+          35.04,
+          42.5,
+          41.08,
+          32.82,
+          33.74
+        ],
+        "trigger": [
+          true,
+          false,
+          false,
+          true,
+          true
+        ]
+      }
+    },
+    "ENet paddy>phil": {
+      "n": 6,
+      "no_adapt": [
+        71.11,
+        4.9
+      ],
+      "always_adabn": [
+        65.15,
+        3.1
+      ],
+      "selective": [
+        71.11,
+        4.9
+      ],
+      "triggered": 0,
+      "min_shares": [
+        0.245,
+        0.265,
+        0.273,
+        0.284,
+        0.159,
+        0.266
+      ],
+      "per_seed": {
+        "no_adapt": [
+          71.62,
+          74.63,
+          67.17,
+          78.91,
+          67.1,
+          67.22
+        ],
+        "always": [
+          68.14,
+          69.63,
+          61.54,
+          64.18,
+          64.29,
+          63.1
+        ],
+        "selective": [
+          71.62,
+          74.63,
+          67.17,
+          78.91,
+          67.1,
+          67.22
+        ],
+        "trigger": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    "ENet kaggle>rice": {
+      "n": 6,
+      "no_adapt": [
+        26.3,
+        10.21
+      ],
+      "always_adabn": [
+        47.74,
+        2.51
+      ],
+      "selective": [
+        44.58,
+        6.66
+      ],
+      "triggered": 4,
+      "min_shares": [
+        0.003,
+        0.071,
+        0.157,
+        0.001,
+        0.017,
+        0.003
+      ],
+      "per_seed": {
+        "no_adapt": [
+          27.13,
+          32.58,
+          43.15,
+          17.67,
+          20.25,
+          17.02
+        ],
+        "always": [
+          46.19,
+          47.91,
+          46.79,
+          45.83,
+          47.09,
+          52.65
+        ],
+        "selective": [
+          46.19,
+          32.58,
+          43.15,
+          45.83,
+          47.09,
+          52.65
+        ],
+        "trigger": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "MNet paddy>rice": {
+      "n": 4,
+      "no_adapt": [
+        33.51,
+        3.92
+      ],
+      "always_adabn": [
+        29.74,
+        1.13
+      ],
+      "selective": [
+        33.52,
+        4.04
+      ],
+      "triggered": 2,
+      "min_shares": [
+        0.109,
+        0.048,
+        0.006,
+        0.108
+      ],
+      "per_seed": {
+        "no_adapt": [
+          37.31,
+          29.89,
+          30.37,
+          36.46
+        ],
+        "always": [
+          29.39,
+          31.4,
+          28.9,
+          29.27
+        ],
+        "selective": [
+          37.31,
+          31.4,
+          28.9,
+          36.46
+        ],
+        "trigger": [
+          false,
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    "ENet paddy>rice": {
+      "n": 4,
+      "no_adapt": [
+        35.11,
+        4.57
+      ],
+      "always_adabn": [
+        34.35,
+        3.04
+      ],
+      "selective": [
+        33.61,
+        3.68
+      ],
+      "triggered": 1,
+      "min_shares": [
+        0.056,
+        0.048,
+        0.05,
+        0.066
+      ],
+      "per_seed": {
+        "no_adapt": [
+          38.88,
+          39.2,
+          30.57,
+          31.77
+        ],
+        "always": [
+          38.15,
+          33.23,
+          30.96,
+          35.06
+        ],
+        "selective": [
+          38.88,
+          33.23,
+          30.57,
+          31.77
+        ],
+        "trigger": [
+          false,
+          true,
+          false,
+          false
+        ]
+      }
+    },
+    "MNet kaggle>phil": {
+      "n": 4,
+      "no_adapt": [
+        39.52,
+        7.44
+      ],
+      "always_adabn": [
+        52.28,
+        5.67
+      ],
+      "selective": [
+        43.44,
+        3.42
+      ],
+      "triggered": 1,
+      "min_shares": [
+        0.127,
+        0.109,
+        0.039,
+        0.212
+      ],
+      "per_seed": {
+        "no_adapt": [
+          46.61,
+          43.28,
+          29.46,
+          38.73
+        ],
+        "always": [
+          58.93,
+          53.27,
+          45.14,
+          51.77
+        ],
+        "selective": [
+          46.61,
+          43.28,
+          45.14,
+          38.73
+        ],
+        "trigger": [
+          false,
+          false,
+          true,
+          false
+        ]
+      }
+    },
+    "ENet kaggle>phil": {
+      "n": 4,
+      "no_adapt": [
+        55.5,
+        4.4
+      ],
+      "always_adabn": [
+        66.79,
+        4.16
+      ],
+      "selective": [
+        55.5,
+        4.4
+      ],
+      "triggered": 0,
+      "min_shares": [
+        0.071,
+        0.06,
+        0.075,
+        0.05
+      ],
+      "per_seed": {
+        "no_adapt": [
+          59.2,
+          55.42,
+          58.02,
+          49.34
+        ],
+        "always": [
+          70.06,
+          69.99,
+          65.8,
+          61.32
+        ],
+        "selective": [
+          59.2,
+          55.42,
+          58.02,
+          49.34
+        ],
+        "trigger": [
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    }
+  },
+  "mean_gain_always": 5.22,
+  "mean_gain_selective": 3.16
+}

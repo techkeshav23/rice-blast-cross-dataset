@@ -1,0 +1,60 @@
+{
+  "tag": "baseline_efficientnet_b0_kaggle_rice-riceleafs_s1",
+  "model": "efficientnet_b0",
+  "dg": "none",
+  "epochs": 20,
+  "seed": 1,
+  "internal_test": {
+    "macro_f1": 99.11,
+    "accuracy": 99.11,
+    "per_class_recall": {
+      "Rice Blast": 98.67,
+      "Brown Spot": 98.67,
+      "Healthy": 100.0
+    },
+    "confusion_matrix": [
+      [
+        74,
+        1,
+        0
+      ],
+      [
+        1,
+        74,
+        0
+      ],
+      [
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "external_test": {
+    "macro_f1": 32.58,
+    "accuracy": 38.25,
+    "per_class_recall": {
+      "Rice Blast": 13.0,
+      "Brown Spot": 91.4,
+      "Healthy": 17.17
+    },
+    "confusion_matrix": [
+      [
+        78,
+        509,
+        13
+      ],
+      [
+        38,
+        478,
+        7
+      ],
+      [
+        95,
+        402,
+        103
+      ]
+    ]
+  },
+  "generalization_gap_macro_f1": 66.53
+}

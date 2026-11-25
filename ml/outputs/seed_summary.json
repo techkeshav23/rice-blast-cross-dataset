@@ -1,0 +1,94 @@
+{
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 20,
+  "source": "paddy_doctor",
+  "target": "philippines",
+  "baseline": {
+    "internal_mean": 95.91,
+    "internal_std": 1.02,
+    "external_mean": 63.82,
+    "external_std": 7.81,
+    "gap_mean": 32.09,
+    "gap_std": 6.92,
+    "per_seed": [
+      {
+        "seed": 42,
+        "internal": 96.89,
+        "external": 69.03,
+        "gap": 27.86
+      },
+      {
+        "seed": 1,
+        "internal": 96.0,
+        "external": 59.1,
+        "gap": 36.9
+      },
+      {
+        "seed": 2,
+        "internal": 94.2,
+        "external": 52.63,
+        "gap": 41.57
+      },
+      {
+        "seed": 3,
+        "internal": 96.45,
+        "external": 71.61,
+        "gap": 24.84
+      },
+      {
+        "seed": 4,
+        "internal": 95.99,
+        "external": 66.72,
+        "gap": 29.27
+      }
+    ]
+  },
+  "mixstyle": {
+    "internal_mean": 95.27,
+    "internal_std": 1.77,
+    "external_mean": 63.23,
+    "external_std": 7.76,
+    "gap_mean": 32.04,
+    "gap_std": 7.34,
+    "per_seed": [
+      {
+        "seed": 42,
+        "internal": 92.38,
+        "external": 62.3,
+        "gap": 30.08
+      },
+      {
+        "seed": 1,
+        "internal": 95.55,
+        "external": 65.66,
+        "gap": 29.89
+      },
+      {
+        "seed": 2,
+        "internal": 95.09,
+        "external": 54.2,
+        "gap": 40.89
+      },
+      {
+        "seed": 3,
+        "internal": 96.45,
+        "external": 59.12,
+        "gap": 37.33
+      },
+      {
+        "seed": 4,
+        "internal": 96.89,
+        "external": 74.88,
+        "gap": 22.01
+      }
+    ]
+  },
+  "mean_gap_reduction": 0.05,
+  "mean_external_lift": -0.59
+}

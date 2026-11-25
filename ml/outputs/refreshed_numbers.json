@@ -1,0 +1,268 @@
+{
+  "baseline_table": [
+    {
+      "cell": "MobileNetV3 Canopy (P->Ph)",
+      "n": 8,
+      "internal": 97.25,
+      "external": 62.64,
+      "gap": 34.61
+    },
+    {
+      "cell": "MobileNetV3 Leaf (K->R)",
+      "n": 5,
+      "internal": 99.02,
+      "external": 32.46,
+      "gap": 66.56
+    },
+    {
+      "cell": "MobileNetV3 Canopy->leaf",
+      "n": 8,
+      "internal": 96.97,
+      "external": 33.88,
+      "gap": 63.09
+    },
+    {
+      "cell": "MobileNetV3 Leaf->canopy",
+      "n": 8,
+      "internal": 99.17,
+      "external": 41.16,
+      "gap": 58.01
+    },
+    {
+      "cell": "EfficientNet Canopy (P->Ph)",
+      "n": 6,
+      "internal": 97.44,
+      "external": 69.78,
+      "gap": 27.66
+    },
+    {
+      "cell": "EfficientNet Leaf (K->R)",
+      "n": 6,
+      "internal": 98.74,
+      "external": 26.3,
+      "gap": 72.44
+    },
+    {
+      "cell": "EfficientNet Canopy->leaf",
+      "n": 8,
+      "internal": 97.44,
+      "external": 32.85,
+      "gap": 64.59
+    },
+    {
+      "cell": "EfficientNet Leaf->canopy",
+      "n": 8,
+      "internal": 98.89,
+      "external": 57.84,
+      "gap": 41.05
+    }
+  ],
+  "dg_table": [
+    {
+      "cell": "MobileNetV3 Canopy (P->Ph)",
+      "n": 8,
+      "delta": 0.1,
+      "p": 0.9761
+    },
+    {
+      "cell": "MobileNetV3 Leaf (K->R)",
+      "n": 5,
+      "delta": -8.16,
+      "p": 0.1717
+    },
+    {
+      "cell": "MobileNetV3 Canopy->leaf",
+      "n": 8,
+      "delta": -5.1,
+      "p": 0.0314
+    },
+    {
+      "cell": "MobileNetV3 Leaf->canopy",
+      "n": 8,
+      "delta": 12.16,
+      "p": 0.0189
+    },
+    {
+      "cell": "EfficientNet Canopy (P->Ph)",
+      "n": 6,
+      "delta": 0.01,
+      "p": 0.9984
+    },
+    {
+      "cell": "EfficientNet Leaf (K->R)",
+      "n": 6,
+      "delta": 5.39,
+      "p": 0.3977
+    },
+    {
+      "cell": "EfficientNet Canopy->leaf",
+      "n": 8,
+      "delta": -3.76,
+      "p": 0.2539
+    },
+    {
+      "cell": "EfficientNet Leaf->canopy",
+      "n": 8,
+      "delta": -1.45,
+      "p": 0.5579
+    }
+  ],
+  "adabn_table": [
+    {
+      "cell": "MobileNetV3 Canopy (P->Ph)",
+      "n": 8,
+      "no": 62.64,
+      "adabn": 71.33,
+      "delta": 8.69,
+      "p": 0.0004,
+      "p_holm": 0.0025
+    },
+    {
+      "cell": "MobileNetV3 Leaf (K->R)",
+      "n": 5,
+      "no": 32.46,
+      "adabn": 34.11,
+      "delta": 1.65,
+      "p": 0.6812,
+      "p_holm": 1.0
+    },
+    {
+      "cell": "MobileNetV3 Canopy->leaf",
+      "n": 8,
+      "no": 33.88,
+      "adabn": 31.55,
+      "delta": -2.34,
+      "p": 0.1609,
+      "p_holm": 0.4827
+    },
+    {
+      "cell": "MobileNetV3 Leaf->canopy",
+      "n": 8,
+      "no": 41.16,
+      "adabn": 52.0,
+      "delta": 10.84,
+      "p": 0.0004,
+      "p_holm": 0.0025
+    },
+    {
+      "cell": "EfficientNet Canopy (P->Ph)",
+      "n": 6,
+      "no": 69.78,
+      "adabn": 64.62,
+      "delta": -5.15,
+      "p": 0.0527,
+      "p_holm": 0.2107
+    },
+    {
+      "cell": "EfficientNet Leaf (K->R)",
+      "n": 6,
+      "no": 26.3,
+      "adabn": 47.74,
+      "delta": 21.44,
+      "p": 0.0055,
+      "p_holm": 0.0277
+    },
+    {
+      "cell": "EfficientNet Canopy->leaf",
+      "n": 8,
+      "no": 32.85,
+      "adabn": 33.02,
+      "delta": 0.18,
+      "p": 0.9305,
+      "p_holm": 1.0
+    },
+    {
+      "cell": "EfficientNet Leaf->canopy",
+      "n": 8,
+      "no": 57.84,
+      "adabn": 68.34,
+      "delta": 10.5,
+      "p": 0.0,
+      "p_holm": 0.0001
+    }
+  ],
+  "tta_compare": {
+    "always_adabn": {
+      "mean_gain": 5.73,
+      "worst": -5.16
+    },
+    "collapse_gated": {
+      "mean_gain": 3.32,
+      "worst": -0.14
+    },
+    "conf_gated_0.1": {
+      "mean_gain": 6.01,
+      "worst": -0.23
+    },
+    "tent": {
+      "mean_gain": 2.4,
+      "worst": -10.16
+    },
+    "eata": {
+      "mean_gain": 3.52,
+      "worst": -9.5
+    },
+    "sar": {
+      "mean_gain": 2.55,
+      "worst": -7.95
+    }
+  },
+  "gated_table": [
+    {
+      "cell": "MobileNetV3 Canopy (P->Ph)",
+      "no": 62.64,
+      "always": 71.33,
+      "collapse": 62.64,
+      "conf_0.1": 69.91
+    },
+    {
+      "cell": "MobileNetV3 Leaf (K->R)",
+      "no": 32.46,
+      "always": 34.11,
+      "collapse": 37.04,
+      "conf_0.1": 37.04
+    },
+    {
+      "cell": "MobileNetV3 Canopy->leaf",
+      "no": 33.88,
+      "always": 31.55,
+      "collapse": 33.74,
+      "conf_0.1": 33.88
+    },
+    {
+      "cell": "MobileNetV3 Leaf->canopy",
+      "no": 41.16,
+      "always": 52.0,
+      "collapse": 43.12,
+      "conf_0.1": 52.0
+    },
+    {
+      "cell": "EfficientNet Canopy (P->Ph)",
+      "no": 69.78,
+      "always": 64.62,
+      "collapse": 69.78,
+      "conf_0.1": 69.55
+    },
+    {
+      "cell": "EfficientNet Leaf (K->R)",
+      "no": 26.3,
+      "always": 47.74,
+      "collapse": 44.58,
+      "conf_0.1": 41.41
+    },
+    {
+      "cell": "EfficientNet Canopy->leaf",
+      "no": 32.85,
+      "always": 33.02,
+      "collapse": 33.06,
+      "conf_0.1": 32.85
+    },
+    {
+      "cell": "EfficientNet Leaf->canopy",
+      "no": 57.84,
+      "always": 68.34,
+      "collapse": 59.5,
+      "conf_0.1": 68.34
+    }
+  ]
+}

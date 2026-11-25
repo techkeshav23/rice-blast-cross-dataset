@@ -1,0 +1,55 @@
+{
+  "MNet paddy>phil": {
+    "n": 8,
+    "no": 62.67,
+    "tent": 65.67,
+    "gain": 3.0
+  },
+  "MNet kaggle>rice": {
+    "n": 5,
+    "no": 32.45,
+    "tent": 22.29,
+    "gain": -10.16
+  },
+  "ENet paddy>phil": {
+    "n": 6,
+    "no": 69.78,
+    "tent": 64.57,
+    "gain": -5.21
+  },
+  "ENet kaggle>rice": {
+    "n": 6,
+    "no": 26.31,
+    "tent": 48.41,
+    "gain": 22.1
+  },
+  "MNet paddy>rice": {
+    "n": 8,
+    "no": 33.88,
+    "tent": 29.26,
+    "gain": -4.62
+  },
+  "ENet paddy>rice": {
+    "n": 8,
+    "no": 32.83,
+    "tent": 34.4,
+    "gain": 1.57
+  },
+  "MNet kaggle>phil": {
+    "n": 8,
+    "no": 41.19,
+    "tent": 49.69,
+    "gain": 8.5
+  },
+  "ENet kaggle>phil": {
+    "n": 8,
+    "no": 57.84,
+    "tent": 61.84,
+    "gain": 4.0
+  },
+  "_summary": {
+    "mean_gain": 2.4,
+    "worst_cell": -10.16,
+    "n_cells": 8
+  }
+}

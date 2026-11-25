@@ -1,0 +1,25 @@
+{
+  "primary_metric": "macro_f1",
+  "note": "Real cross-dataset, paddy_doctor -> riceleafs, mean of 4 seeds (+/- std).",
+  "baseline": {
+    "in_set": 96.73,
+    "unseen": 33.51,
+    "gap": 63.22
+  },
+  "mixstyle": {
+    "in_set": 96.66,
+    "unseen": 27.12,
+    "gap": 69.54
+  },
+  "std": {
+    "baseline_gap": 3.82,
+    "mixstyle_gap": 4.98
+  },
+  "seeds": [
+    42,
+    1,
+    2,
+    3
+  ],
+  "version": "v0.3-real-multiseed"
+}
